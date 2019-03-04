@@ -1,9 +1,23 @@
 .header {
-    color: white;
-    background: black;
-    font-weight: bold;
-    font-family: Bebas;
-    font-size: 70px;
-    text-align: center;
-    line-height: 100px;
-  }  
+  color: white;
+  background: black;
+  font-weight: bold;
+  font-family: Bebas;
+  font-size: 70px;
+  text-align: center;
+  line-height: 100px;
+}  
+
+.img-with-text {
+  text-align: center;
+  width: 600px;
+  font-family: Roboto;
+  font-size: 10px;
+  text-transform:uppercase;
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
