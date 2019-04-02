@@ -607,9 +607,15 @@ def getServerStatus(server):
     secret_access_key = decode(stu_credentials.secret_access_key)
 
     resource = aws_util.getResource(access_key,secret_access_key,service='ec2')
+    
     instance = resource.Instance(server.instanceid)
-    instance_state = instance.state
-
+    try: 
+        instance_state = instance.state
+    except:
+        print(resoure)
+        print(stu_credentials)
+        print(type(resource))
+        return "Down"
     http_status_code = instance_state['Code']
 
     if http_status_code == 16:
