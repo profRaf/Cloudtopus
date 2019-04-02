@@ -612,7 +612,7 @@ def getServerStatus(server):
     try: 
         instance_state = instance.state
     except:
-        print(resoure)
+        print(resource)
         print(stu_credentials)
         print(type(resource))
         return "Down"
