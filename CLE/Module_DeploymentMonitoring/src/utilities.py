@@ -615,6 +615,7 @@ def getServerStatus(server):
         print(resource)
         print(stu_credentials)
         print(type(resource))
+        print(instance)
         return "Down"
     http_status_code = instance_state['Code']
 
