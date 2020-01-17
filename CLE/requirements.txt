@@ -71,7 +71,7 @@ python3-openid==3.1.0
 pytyp==2.2.4
 pytz==2018.5
 pywin32==221
-PyYAML==3.13
+PyYAML==5.1
 queuelib==1.5.0
 redis==2.10.6
 requests==2.19.1
