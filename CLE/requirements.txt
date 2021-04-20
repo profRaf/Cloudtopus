@@ -55,7 +55,7 @@ parsel==1.4.0
 phonenumbers==8.9.11
 pluggy==0.6.0
 protobuf==3.6.0
-py==1.5.3
+py==1.10.0
 pyaes==1.6.1
 pyasn1==0.4.3
 pyasn1-modules==0.2.1
