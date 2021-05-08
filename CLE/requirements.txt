@@ -32,7 +32,7 @@ django-formtools==2.1
 django-widget-tweaks==1.4.3
 dnspython==1.15.0
 docutils==0.14
-eventlet==0.24.1
+eventlet==0.31.0
 ez-setup==0.9
 future==0.16.0
 greenlet==0.4.14
