@@ -78,7 +78,7 @@ requests==2.20.0
 requests-oauthlib==1.0.0
 rsa==3.4.2
 s3transfer==0.1.13
-Scrapy==1.5.0
+Scrapy==1.8.2
 selenium==3.14.1
 service-identity==17.0.0
 six==1.11.0
