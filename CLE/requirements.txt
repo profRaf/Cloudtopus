@@ -86,7 +86,7 @@ sqlparse==0.1.16
 telegram==0.0.1
 Telethon==1.1.1
 Telethon-sync==1.0.4
-Twisted==19.7.0
+Twisted==22.10.0
 typed-ast==1.1.0
 urllib3==1.24.2
 vine==1.1.4
